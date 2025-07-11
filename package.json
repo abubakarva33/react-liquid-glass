@@ -1,7 +1,12 @@
 {
   "name": "react-liquid-glass",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup"
@@ -11,9 +16,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "gsap": "^3.13.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "gsap": "^3.13.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.1.8",
