@@ -1,15 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "ESNext",
-    "jsx": "react-jsx",
-    "declaration": true,
-    "outDir": "./dist",
-    "strict": true,
+    "jsx": "react-jsx", // or "react" for older React versions
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true
-  },
-  "include": ["src"]
+  }
 }
