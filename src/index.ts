@@ -1,2 +1,2 @@
-export { default as AdvancedLiquidGlassCard } from "./AdvancedLiquidGlassCard";
-export { LiquidDistortionFilter } from "./AdvancedLiquidGlassCard";
+export { default as AdvancedLiquidGlassCard } from "./components/AdvancedLiquidGlassCard";
+export { LiquidDistortionFilter } from "./components/AdvancedLiquidGlassCard";
